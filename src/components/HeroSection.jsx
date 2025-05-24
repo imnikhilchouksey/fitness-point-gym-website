@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import bgVideo from '../assets/bg-video-gym.mp4';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
-import logo from '../assets/fitnessPointLogo.png';
+import fitnessPointlogo from '../assets/fitnessPointLogo.png';
 const HeroSection = ({ id }) => {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -48,7 +48,7 @@ const HeroSection = ({ id }) => {
                     <nav className="relative z-30 h-[10%] flex justify-between items-center px-4 md:px-8 py-4 text-white">
                         {/* Logo */}
                         <img
-                            src={logo}
+                            src={fitnessPointlogo}
                             alt="Fitness Point Logo"
                             className="w-32 h-auto object-contain "
                         />
