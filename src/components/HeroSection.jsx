@@ -62,7 +62,7 @@ const HeroSection = () => {
 
                     {/* Desktop Menu */}
                     <ul className="hidden md:flex gap-8 items-center text-lg">
-                        {['Home', 'Services', 'Pricing', 'Gallary', 'Contact us'].map((item, i) => (
+                        {['Home', 'Services', 'Pricing', 'Gallery', 'Contact us'].map((item, i) => (
                             <li key={i} className="relative group cursor-pointer">
                                 {item}
                                 <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
@@ -74,7 +74,7 @@ const HeroSection = () => {
                 {/* Mobile Menu */}
                 {isOpen && (
                     <ul className="relative z-30 md:hidden flex flex-col gap-4 items-center text-white bg-black bg-opacity-80 py-4">
-                        {['Home', 'Services', 'Pricing', 'Gallary', 'Contact us'].map((item, i) => (
+                        {['Home', 'Services', 'Pricing', 'Gallery', 'Contact us'].map((item, i) => (
                             <li key={i} className="w-40 text-center font-bold transition transform active:scale-90 text-lg cursor-pointer bg-white text-black px-2 py-1 rounded-md">{item}</li>
                         ))}
                     </ul>

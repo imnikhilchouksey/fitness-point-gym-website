@@ -3,6 +3,7 @@ import './App.css'
 import HeroSection from './components/HeroSection'
 import ServicesSection from './components/ServicesSection';
 import PricingSection from './components/PricingSection';
+import GallerySection from './components/GallerySection';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <HeroSection/>
       <ServicesSection />
       <PricingSection/>
+      <GallerySection/>
     </div>
   )
 }
