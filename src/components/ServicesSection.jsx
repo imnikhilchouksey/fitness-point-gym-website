@@ -8,7 +8,7 @@ import CardioImage from '../assets/cardioImage.jpg';
 const ServicesSection = ({ id }) => {
   return (
     <section id={id}>
-      <div className="relative h-screen w-full overflow-hidden font-sans">
+      <div className="relative h-screen w-full overflow-hidden font-sans bg-black">
         <video
           autoPlay
           loop
