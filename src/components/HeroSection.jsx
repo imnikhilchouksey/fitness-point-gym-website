@@ -86,7 +86,7 @@ const HeroSection = () => {
                         Welcome to the <span className='bg-yellow-500 px-2 py-1 text-black rounded-md'>Fitness Point</span>
                     </h2>
 
-                    <p className="text-lg md:text-2xl font-light mb-4 italic">{texts[index]}</p>
+                    <p className="text-lg md:text-2xl font-light mb-12 italic">{texts[index]}</p>
                 </div>
             </div>
         </div>
