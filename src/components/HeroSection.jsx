@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import bgVideo from '../assets/bg-video-gym.mp4';
+import bgVideo from '../assets/bg-video-gym-.mp4';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import fitnessPointlogo from '../assets/fitnessPointLogo.png';
@@ -21,7 +21,7 @@ const HeroSection = ({ id }) => {
 
     return (
         <section id={id}>
-            <div className="relative h-screen w-full overflow-hidden font-sans">
+            <div className="relative h-screen w-full overflow-hidden font-sans bg-black ">
 
                 {/* Background Video */}
                 <video

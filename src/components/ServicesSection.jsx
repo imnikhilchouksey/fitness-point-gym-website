@@ -29,7 +29,7 @@ const ServicesSection = ({ id }) => {
           </div>
           <div className='flex flex-col md:flex-row md:gap-10 md:mt-40 md:text-center '>
             <div
-              className='relative md:w-52 md:h-40 bg-cover bg-center gap-2 mt-2 md:text-2xl text-white text-center p-10 rounded-md flex items-center justify-center font-bold transition transform hover:scale-110'
+              className='relative md:w-52 md:h-40 bg-cover bg-center gap-2 mt-2 md:text-2xl text-white text-center p-10 rounded-md flex items-center justify-center font-bold transition transform hover:scale-110 '
               style={{ backgroundImage: `url(${CardioImage})` }}
             >
               {/* Black Overlay */}
