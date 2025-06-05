@@ -79,18 +79,18 @@ const HeroSection = ({ id }) => {
                     {isOpen && (
                         <ul className="relative z-30 md:hidden flex flex-col gap-4 items-center text-white bg-black bg-opacity-80 py-4">
                             {['Home', 'Services', 'Pricing', 'Gallery', 'Contact us'].map((item, i) => (
-                                <li key={i} className="w-24 text-center font-bold transition transform active:scale-90 text-lg cursor-pointer bg-white text-black rounded-md"
-                                onClick={()=>setIsOpen(false)}> <a href={`#${item.toLowerCase().replace(/\s/g, '')}`}>
+                                <a href={`#${item.toLowerCase().replace(/\s/g, '')}`}><li key={i} className="w-32 text-center font-bold transition transform active:scale-90 text-lg cursor-pointer bg-white text-black rounded-md"
+                                onClick={()=>setIsOpen(false)}> 
                                     {item}
-                                </a></li>
+                                </li></a>
                             ))}
                         </ul>
                     )}
 
                     {/* Hero Content */}
                     <div className="flex flex-col justify-between items-center text-white text-center flex-1 px-4 md:px-0 py-10">
-                        <h2 className="text-3xl md:text-5xl font-bold font-mono mt-44">
-                            Welcome to the <span className='bg-yellow-500 px-2 py-1 text-black rounded-md'>Fitness Point</span>
+                        <h2 className="text-4xl md:text-6xl font-extralight font-sans mt-44">
+                            Welcome to the <span className='px-2 py-2 bg-gradient-to-r from-yellow-500 to-yellow-100  font-thin text-transparent inline-block bg-clip-text rounded-md'>Fitness Point</span>
                         </h2>
 
                         <p className="text-lg md:text-2xl font-light mb-12 italic">{texts[index]}</p>

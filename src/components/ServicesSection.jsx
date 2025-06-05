@@ -24,12 +24,12 @@ const ServicesSection = ({ id }) => {
 
         {/* Main Content */}
         <div className="relative z-20 flex flex-col px-2 py-8 gap-16 items-center justify-between">
-          <div className='text-white text-3xl text-center font-sans md:text-6xl md:mt-10 font-extrabold'>
+          <div className='text-white text-3xl text-center font-sans md:text-6xl md:mt-10 font-extralight'>
             <h1>We offer something for everybody</h1>
           </div>
-          <div className='flex flex-col md:flex-row md:gap-10 md:mt-40 md:text-center '>
+          <div className='flex flex-col md:flex-row gap-2 md:gap-10 md:mt-40 md:text-center '>
             <div
-              className='relative md:w-52 md:h-40 bg-cover bg-center gap-2 mt-2 md:text-2xl text-white text-center p-10 rounded-md flex items-center justify-center font-bold transition transform hover:scale-110 '
+              className='relative md:w-52 md:h-40 bg-cover bg-center gap-2 mt-2 md:text-2xl text-white text-center p-10 rounded-md flex items-center justify-center font-thin transition transform hover:scale-x-110 hover:-translate-y-2 border-2 border-yellow-500 hover:border-white'
               style={{ backgroundImage: `url(${CardioImage})` }}
             >
               {/* Black Overlay */}
@@ -39,17 +39,17 @@ const ServicesSection = ({ id }) => {
               <div className="relative z-10">Cardio</div>
             </div>
             <div
-              className='relative md:w-52 md:h-40 bg-cover bg-center gap-2 mt-2 md:text-2xl text-white text-center p-10 rounded-md flex items-center justify-center font-bold transition transform hover:scale-110'
+              className='relative md:w-52 md:h-40 bg-cover bg-center gap-2 mt-2 md:text-2xl text-white text-center p-10 rounded-md flex items-center justify-center font-thin transition transform hover:scale-x-110 hover:-translate-y-2 border-2 border-yellow-500  hover:border-white'
               style={{ backgroundImage: `url(${strengthTraining})` }}
             >
               {/* Black Overlay */}
               <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 rounded-md z-0"></div>
 
               {/* Text Content */}
-              <div className="relative z-10">Strength Training</div>
+              <div className="relative z-10 ">Strength Training</div>
             </div>
             <div
-              className='relative md:w-52 md:h-40 bg-cover bg-center gap-2 mt-2 md:text-2xl text-white text-center p-10 rounded-md flex items-center justify-center font-bold transition transform hover:scale-110'
+              className='relative md:w-52 md:h-40 bg-cover bg-center gap-2 mt-2 md:text-2xl text-white text-center p-10 rounded-md flex items-center justify-center font-thin transition transform hover:scale-x-110 hover:-translate-y-2 border-2 border-yellow-500 hover:border-white'
               style={{ backgroundImage: `url(${weightTraining})` }}
             >
               {/* Black Overlay */}
@@ -59,7 +59,7 @@ const ServicesSection = ({ id }) => {
               <div className="relative z-10">Weight Training</div>
             </div>
             <div
-              className='relative md:w-52 md:h-40 bg-cover bg-center gap-2 mt-2 md:text-2xl text-white text-center p-10 rounded-md flex items-center justify-center font-bold transition transform hover:scale-110'
+              className='relative md:w-52 md:h-40 bg-cover bg-center gap-2 mt-2 md:text-2xl text-white text-center p-10 rounded-md flex items-center justify-center font-thin transition transform hover:scale-x-110 hover:-translate-y-2 border-2 border-yellow-500 hover:border-white'
               style={{ backgroundImage: `url(${personalTraining})` }}
             >
               {/* Black Overlay */}

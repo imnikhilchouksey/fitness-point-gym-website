@@ -10,18 +10,18 @@ const ContactSection = ({ id }) => {
           <h2 className="text-4xl font-bold mb-6">Contact Us</h2>
           <div className="mb-4">
             <p className="text-lg font-semibold">Address:</p>
-            <p>Shanti Nagar, Balaghat, Lalbarra, Madhya Pradesh 481441</p>
+            <p>Shanti Nagar, Lalbarra, Balaghat, Madhya Pradesh 481441</p>
           </div>
-          <div className="mb-4">
+          <div className="mb-4 flex flex-row gap-2 items-baseline">
             <p className="text-lg font-semibold">Owner :</p>
             <p>Pravin Pashine</p>
           </div>
-          <div className="mb-4">
+          <div className="mb-4 flex flex-row gap-2 items-baseline">
             <p className="text-lg font-semibold">Mobile:</p>
             <p>+91 7000858560</p>
           </div>
           <div className="mb-4">
-            <p className="text-lg font-semibold">Follow us on instagram</p>
+            <p className="text-lg font-semibold">Follow us on instagram<br></br> 👇</p>
             <a href="https://www.instagram.com/fitness__point00/" className='flex flex-row gap-2 items-center'><FaInstagram />Instagram</a>
           </div>
         </div>
