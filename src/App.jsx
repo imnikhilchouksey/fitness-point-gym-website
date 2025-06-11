@@ -7,7 +7,9 @@ import GallerySection from './components/GallerySection';
 import ContactUsSection from './components/ContactUsSection'
 import Footer from './components/Footer'
 
-function App() {
+export const App = ()=> {
+
+  console.log("App loading...")
 
   return (
     <div>
